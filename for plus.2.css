@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main__box {
+    display: flex;
+    margin: auto;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 450px;
+    background: #293462;
+}
+
+.box {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background: #FFF1C1;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.mountain {
+    width: 0;
+    height: 0;
+    width: 100px;
+    height: 100px;
+    background: #FE5F55;
+    margin-top: 150px;
+    transform: rotateZ(-130deg);
+}
+
+.mountain2 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    background: #FE5F55;
+
+}
